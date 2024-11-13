@@ -69,7 +69,7 @@ mkdir -pv build/fmt
 cd build/fmt
 
 # Run the configuration step, specifying your username
-cmake /home/username/git/MNXB11-project-EVA/dependencies/fmt -DCMAKE_INSTALL_PREFIX=~/git/MNXB11-project-EVA/external
+cmake ../../dependencies/fmt -DCMAKE_INSTALL_PREFIX=../../external
 
 # To build the library, run "make" and "make install"
 make
